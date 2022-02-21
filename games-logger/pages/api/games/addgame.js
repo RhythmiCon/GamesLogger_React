@@ -1,7 +1,8 @@
-import { addGame } from "../../../models/getAllGames.js";
+import { addGame } from "../../../models/addGame.js";
 
-export async function handler({ body }, res) {
+export default async function handler(req, res) {
    if (req.method === "POST") {
+      let body = req.body;
       const { title, playtime, rating, comment } = body;
       await addGame(title, playtime, rating, comment);
 
