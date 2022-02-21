@@ -1,0 +1,21 @@
+@font-face {
+   font-family: eightbit;
+   src: url("../../styles/fonts/slkscr.ttf");
+}
+
+.outer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 600px;
+   width: 800px;
+   background-color: grey;
+   z-index: 1;
+}
+
+.inner {
+   height: 500px;
+   width: 700px;
+   background-color: rgb(7, 179, 64);
+   z-index: 0;
+}
