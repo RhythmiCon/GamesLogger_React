@@ -2,15 +2,15 @@
    display: flex;
    justify-content: center;
    align-items: center;
-   height: 600px;
-   width: 800px;
+   height: 800px;
+   width: 1000px;
    background-color: grey;
    z-index: 1;
 }
 
 .inner {
-   height: 500px;
-   width: 700px;
+   height: 675px;
+   width: 875px;
    background-color: rgb(7, 179, 64);
    z-index: 0;
 }

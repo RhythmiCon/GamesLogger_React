@@ -3,3 +3,8 @@
    font-size: 25px;
    padding: 5px;
 }
+
+.container {
+   height: 100%;
+   font-family: "eightbit";
+}

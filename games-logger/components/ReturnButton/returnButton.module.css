@@ -1,0 +1,12 @@
+.button {
+   font-family: "eightbit";
+   background-color: rgb(7, 179, 64);
+   border-radius: 0.2em;
+   margin: 2px 0px 0px 2px;
+}
+
+.button:hover {
+   color: white;
+   background-color: black;
+   transition: all 0.2s;
+}

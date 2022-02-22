@@ -1,5 +1,9 @@
-.return_button {
+.container {
+   height: 100%;
    font-family: "eightbit";
+}
+
+.return_button {
    font-size: 25px;
    padding: 5px;
 }

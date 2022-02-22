@@ -5,7 +5,7 @@ export default function ReturnButton() {
    return (
       <div className={css.return_button}>
          <Link href="/">
-            <a>←</a>
+            <a className={css.button}>Back</a>
          </Link>
       </div>
    );

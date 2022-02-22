@@ -15,12 +15,14 @@
 
 .button_container a {
    padding: 10px;
+   background-color: rgb(7, 179, 64);
+   border-radius: 0.5em;
 }
 
 .button_container a:hover {
    cursor: pointer;
-   background-color: grey;
-   border-radius: 0.5em;
+   background-color: black;
+   color: white;
    transition: all 0.2s;
 }
 
