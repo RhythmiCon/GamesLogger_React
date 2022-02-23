@@ -1,6 +1,7 @@
 .container {
    height: 100%;
    font-family: "eightbit";
+   overflow: scroll;
 }
 
 .return_button {
