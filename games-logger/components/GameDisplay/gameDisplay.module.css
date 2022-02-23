@@ -7,3 +7,30 @@
    color: white;
    background-color: black;
 }
+
+.upd_del_buttons {
+   display: flex;
+   justify-content: flex-end;
+   font-size: 15px;
+   margin-right: 5px;
+}
+
+.del_button {
+   width: 57px;
+   background-color: red;
+}
+
+.del_button:hover {
+   cursor: pointer;
+   color: white;
+}
+
+.upd_button {
+   width: 38px;
+   background-color: rgb(195, 192, 22);
+}
+
+.upd_button:hover {
+   cursor: pointer;
+   color: white;
+}

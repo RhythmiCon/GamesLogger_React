@@ -1,10 +1,12 @@
 import css from "./gameDisplay.module.css";
 
 export default function GameDisplay({
+   id,
    gametext,
    playtimetext,
    ratingtext,
    commenttext,
+   handleDelete,
 }) {
    return (
       <div className={css.container}>
@@ -20,6 +22,12 @@ export default function GameDisplay({
          <p>
             <span className={css.key_span}>COMMENTS:</span> {commenttext}
          </p>
+         <div className={css.upd_del_buttons}>
+            <p className={css.upd_button}>EDIT</p>
+            <p onClick={() => handleDelete(id)} className={css.del_button}>
+               DELETE
+            </p>
+         </div>
       </div>
    );
 }
